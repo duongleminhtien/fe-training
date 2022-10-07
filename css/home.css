@@ -1,0 +1,458 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+
+@font-face {
+    font-family: Centra No1;
+    src: url("/font/centrano1-and-no2-font/CentraNo1-Book.ttf");
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+
+    /* position: absolute;
+    /* width: 247px;
+    height: 64px;
+    left: 16px;
+    top: 16px; */ 
+
+    /* Xanh */
+
+    background: #00ADEF;
+}        
+#wraper {
+    width: auto;
+}
+video {
+    width: 100%;
+    height: 660px;
+    position: absolute;
+    object-fit: cover;
+}
+.container {
+    position: relative;
+    width: 1440px;
+    margin: 0 auto;
+}
+header {
+    width: 100%;
+    height: 660px;
+}
+.row {
+    width: 1440px;
+    height: 68px;
+    position: relative;
+    display: flex;
+    
+    flex-wrap: wrap;
+}
+.content {
+    position: relative;
+}
+.logo {
+    height: 66px;
+    width: 146.5548095703125px;
+    margin-left: 10px;
+    margin-top: 0px;
+} 
+.nav-right {
+    
+    display: flex;
+    
+}
+.insight {
+    display: flex;
+    width: 55px;
+    height: 28px;
+    margin-left: 700px;
+    
+    margin-top: 0px; 
+}
+.insight p {
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.insight a {
+    width: 10px;
+    height: 5px;
+    margin-left: 9px;
+    margin-top: 2px;
+    color: #FFFFFF;
+}
+.administration {
+    display: flex;
+    width: 128px;
+    height: 28px;
+    margin-left:30px;
+    /* margin-top: 100px; */
+    /* margin-bottom: 1000px;  */
+}
+.administration p {
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.administration a {
+    width: 10px;
+    height: 5px;
+    margin-top: 2px;
+    margin-left: 9px;
+    color: #FFFFFF;
+}
+.profile{
+    display: flex;
+    width: 134px;
+    height: 38px;
+    border: 1px solid #ccc;
+    border-radius: 38px;
+    margin-top: 9px;
+    background-color: #FFFFFF;
+    color: #A78730;
+    margin-left: 30px;
+    /* margin-top: 19px; */
+    font-family: 'Centra No1';
+} 
+.profile a{
+    color: #A78730;
+    margin-top: 6.5px;
+    width: 10px;
+    height: 5px;
+}
+.material-symbols-outlined{
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+#person{
+    margin-left: 20.73px;
+    margin-top: 5px;
+}
+.profile p{
+    width: 47px;
+    height: 28px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    margin-left: 8.7px;
+} 
+
+.menu{
+    display: none;
+    color: #FFFFFF;
+}
+.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+/* *, :after, :before {
+    box-sizing: inherit;
+} */
+.main-right h2 {
+    font-family: 'Centra No1';
+    font-size: 22px;
+    opacity: 80%;
+}
+.main-left h2 {
+    font-family: 'Centra No1';
+    font-size: 22px;
+    opacity: 80%;
+}
+.coming-box {
+    font-family: 'Centra No1';
+    opacity: .9;
+    position: absolute;
+    right: -3rem;
+    top: 2.25rem;
+    transform: rotate(45deg);
+    font-size: .8125rem;
+    padding: 0.4rem 3.5rem;
+    background-color: #ef8a40;
+    color: #fff;
+}
+.text-center {
+    text-align: center!important;
+    position: absolute;
+}
+.button-show {
+    background-color: #a28840;
+    color: #fff;
+    border-radius: 1.375rem;
+    padding: 0.75rem 4rem;
+    font-size: .875rem;
+    opacity: 1;
+}
+.p1{
+    width: 413px;
+    height: 112px;
+    margin-left: 31px;
+    margin-top: 26px;
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 28px;
+    color: #000000;
+    opacity: 0.7;
+}
+.p2{
+    width: 413px;
+    height: 56px;
+    margin-left: 31px;
+    margin-top: 12px;
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 28px;
+    color: #000000;
+    opacity: 0.7;
+}
+.p3 {
+    width: 481px;
+    height: 56px;
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 28px;
+    color: #000000;
+    opacity: 0.7;
+    margin-left: 30px;
+    margin-top: 37px;
+}
+.p3 span {
+    width: 50px;
+    height: 28px;
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 28px;
+    color: #70A693;
+}
+.title {
+    width: 527px;
+    height: 91px;
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 91px;
+    color: #FFFFFF;
+    margin-left: 165px;
+    margin-top: 181px;
+}
+.subtitle {
+    display: inline-flex;
+}
+.sub1 {
+    width: 262px;
+    height: 30px;
+    margin-left: 165px;
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.sub2 {
+    width: 238px;
+    height: 30px;
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.1rem;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-left: 9px;
+}
+.main {
+    display: flex;
+}
+.main-left {
+    width: 540px;
+    height: 475px;
+    background: #F2F7FF;
+    border-radius: 4px;
+    margin-left: 165px;
+    margin-top: 149px;
+}
+.main-right {
+    
+    width: 540px;
+    height: 475px;
+    background: #FFFFE0;
+    border-radius: 4px;
+    margin-left: 30px;
+    margin-top: 149px;
+}
+.statistical {
+    padding-bottom: 10px;
+}
+div {
+    display: block;
+}
+.p1{
+    width: 413px;
+    height: 112px;
+    margin-left: 31px;
+    margin-top: 26px;
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 28px;
+    color: #000000;
+    opacity: 0.7;
+}
+.p2{
+    width: 413px;
+    height: 56px;
+    margin-left: 31px;
+    margin-top: 12px;
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 28px;
+    color: #000000;
+    opacity: 0.7;
+}
+article{
+    display: flex;
+    width: 100%;
+    height: 774px;
+}
+.main__main_button {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.statistical{
+    padding-bottom: 10px;
+}
+.statistical__title h2{
+    width: 84px;
+    height: 10px;
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 28px;
+    color: #000000;
+    opacity: 0.8;
+    margin-left: 30px;
+    margin-bottom: 8px;
+}
+.statistical__number{
+    display: grid;
+    grid-template-columns: 15px 20px;
+    margin-left: 30px;
+    margin-bottom: 18px;
+}
+
+.statistical__number #span1 {
+    color: #4350AF;
+    width: 24px;
+    height: 24px;
+    margin-top: 8px;
+}
+
+.statistical__number #span2 {
+    color: #619D87;
+    width: 24px;
+    height: 24px;
+    margin-top: 8px;
+
+}
+
+.statistical__number #span3{
+    color: #EB5181;
+    width: 24px;
+    height: 24px;
+    margin-top: 8px;
+
+}
+
+.statistical__number #span4{
+    color: #EF8A40;
+    width: 24px;
+    height: 24px;
+    margin-top: 8px;
+
+}
+
+.statistical__number #p1 {
+    color: #4350AF;
+    width: 26px;
+    height: 28px;
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 28px;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+.statistical__number #p2 {
+    color: #619D87;
+    width: 26px;
+    height: 28px;
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 28px;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+.statistical__number #p3 {
+    color: #EB5181;
+    width: 26px;
+    height: 28px;
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 28px;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+.statistical__number #p4 {
+    color: #EF8A40;
+    width: 26px;
+    height: 28px;
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 28px;
+    margin-left: 10px;
+    margin-top: 7px;
+}
