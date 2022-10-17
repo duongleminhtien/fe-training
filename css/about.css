@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'Centra No1';
+    src: url(/font/centrano1-and-no2-font/CentraNo1-Book.ttf);
+}
 .insight {
     width: 55px;
     height: 28px;
@@ -69,3 +73,656 @@
     'GRAD' 0,
     'opsz' 48
 }
+
+
+body {
+    height: 2786px;
+    width: 100%;
+    margin: auto;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 2786px;
+
+    background: #EDF8EF;
+    height: 2786px;
+}
+
+main {
+    width: 100%;
+    height: 2467px;
+}
+
+.header {
+    width: 1440px;
+    height: 80px;
+    display: flex;
+    position: relative;
+    margin: auto;
+}
+
+.ymner {
+    margin-left: 170px;
+    margin-top: 18px;
+}
+
+.menu {
+    display: flex;
+    margin-left: 586.83px;
+}
+
+.insights {
+    margin-top: 26px;
+    display: flex;
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.material-icons-sharp {
+    margin-top: 20px;
+    color: #000;
+}
+
+.admin {
+    margin-top: 26px;
+    display: flex;
+    margin-left: 40px;
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.profile {
+    margin-top: 35px;
+    box-sizing: border-box;
+    background: #A78730;
+    opacity: 0.9;
+    border-radius: 28px;
+    display: flex;
+    width: 134px;
+    height: 38px;
+    margin-left: 32px;
+    color: #FFFFFF;
+}
+
+.user {
+    margin-top: 13px;
+    margin-left: 24.73px;
+    width: 12px;
+    height: 12px;
+
+}
+
+#profile {
+    width: 47px;
+    height: 28px;
+    margin-left: 8.73px;
+    margin-top: 10px;
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.profile .material-icons-sharp {
+    color: #FFFFFF;
+    margin-top: 9px;
+}
+
+hr {
+    margin-top: 28.89px;
+    width: 100%;
+    opacity: 0.2;
+    border: 0.5px solid #000000;
+}
+.content{
+    width: 1440px;
+    margin: auto;
+}
+.make-idea {
+    width: 691px;
+    height: 56px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 165px;
+    margin-top: 68px;
+}
+
+h1 {
+    width: 309px;
+    height: 54px;
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-size: 40px;
+    color: #000000;
+    opacity: 0.8;
+    margin: 0px;
+}
+
+.p1 {
+    width: 777px;
+    height: 56px;
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+    opacity: 0.7;
+    margin-top: 24px;
+}
+
+.p2 {
+    width: 777px;
+    height: 84px;
+
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+    opacity: 0.7;
+    margin-top: 16px;
+}
+
+.p3 {
+    width: 691px;
+    height: 56px;
+
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+    opacity: 0.7;
+    margin-top: 16px;
+}
+
+.team h1 {
+    width: 101px;
+    height: 48px;
+
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    color: #A78730;
+    margin-top: 332px;
+    margin-left: 164px;
+}
+
+.oscar {
+    display: flex;
+    margin-left: 164px;
+    margin-top: 60px;
+}
+
+.img-oscar {
+    width: 248.73px;
+    height: 380.71px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+}
+
+#img-oscar {
+    margin-top: 15%;
+    margin-left: 20%;
+    border-radius: 7px;
+}
+
+.status {
+    display: flex;
+    flex-direction: column;
+}
+
+.oscar h1 {
+    width: 232px;
+    height: 38px;
+
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    color: #000000;
+    opacity: 0.8;
+
+    margin-left: 227.27px;
+    margin-top: 61px;
+}
+
+.in {
+    width: 26px;
+    height: 26px;
+    margin-left: 227.27px;
+}
+
+.oscar-p {
+    width: 557px;
+    height: 156px;
+
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #000000;
+    opacity: 0.7;
+
+    margin-left: 227.27px;
+}
+
+.hermes {
+    display: flex;
+    margin-right: 165px;
+    margin-top: 60px;
+    flex-direction: row-reverse;
+}
+
+.img-hermes {
+    position: relative;
+    width: 248.73px;
+    height: 380.71px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+}
+
+#img-hermes {
+    position: absolute;
+    right: 20%;
+    margin-top: 15%;
+    border-radius: 7px;
+}
+
+.status {
+    display: flex;
+    flex-direction: column;
+    margin-right: 240.73px;
+}
+
+.hermes h1 {
+    width: 152px;
+    height: 38px;
+
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    color: #000000;
+    opacity: 0.8;
+
+    margin-left: 227.27px;
+    margin-top: 61px;
+}
+
+.hermes-p {
+    width: 556px;
+    height: 182px;
+
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #000000;
+    opacity: 0.7;
+
+    margin-left: 227.27px;
+}
+
+.erik {
+    display: flex;
+    margin-left: 164px;
+    margin-top: 60px;
+}
+
+.img-erik {
+    width: 248.73px;
+    height: 380.71px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+}
+
+#img-erik {
+    margin-top: 15%;
+    margin-left: 20%;
+    border-radius: 7px;
+}
+
+.status {
+    display: flex;
+    flex-direction: column;
+}
+
+.erik h1 {
+    width: 109px;
+    height: 38px;
+
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    color: #000000;
+    opacity: 0.8;
+
+    margin-left: 227.27px;
+    margin-top: 61px;
+}
+
+.in {
+    width: 26px;
+    height: 26px;
+    margin-left: 227.27px;
+}
+
+.erik-p {
+    width: 615px;
+    height: 182px;
+
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #000000;
+    opacity: 0.7;
+
+    margin-left: 227.27px;
+}
+
+.advisors h1 {
+    width: 161px;
+    height: 48px;
+
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #A78730;
+    margin-top: 74px;
+    margin-left: 164px;
+}
+
+.patricia {
+    display: flex;
+    margin-left: 164px;
+    margin-top: 60px;
+}
+
+.img-patricia {
+    width: 210px;
+    height: 274px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+}
+
+#img-patricia {
+    margin-top: 15%;
+    margin-left: 20%;
+    border-radius: 7px;
+}
+
+.patricia h1 {
+    /* position: absolute; */
+    width: 220px;
+    height: 32px;
+    /* left: 351px; */
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    color: #000000;
+    opacity: 0.8;
+    margin-top: 61px;
+    margin-left: 351px;
+}
+
+.patricia .status1 .in {
+    width: 16.5px;
+    height: 16.5px;
+    margin-left: 351px;
+}
+
+.patricia-p {
+    width: 466px;
+    height: 78px;
+
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #000000;
+    opacity: 0.7;
+
+    margin-left: 351px;
+}
+
+.status1 {
+    position: absolute;
+}
+
+.box-ymner {
+    position: relative;
+    box-sizing: content-box;
+    height: 258.3636474609375px;
+    width: 1440px;
+    top: 0px;
+    background: #292A2B;
+    margin: auto;
+}
+
+.y {
+    position: absolute;
+    left: 269.13px;
+    top: 91.47px;
+}
+
+.m {
+    position: absolute;
+    left: 303.61px;
+    top: 91.47px;
+
+}
+
+.n {
+    position: absolute;
+    left: 339.43px;
+    top: 91.47px;
+}
+
+.e {
+    position: absolute;
+    left: 368.23px;
+    top: 91.47px;
+}
+
+.r {
+    position: absolute;
+    left: 392.02px;
+    top: 91.47px;
+}
+
+.available-funding2 {
+    position: absolute;
+    left: 49.03%;
+
+    top: 23.2%;
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+.available-funding-2 :hover{
+    color: #cbcbc9;
+}
+
+.funding-insights2 {
+    position: absolute;
+    left: 49.03%;
+    top: 38.87%;
+
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.about-ymner {
+    position: absolute;
+    left: 69.1%;
+    top: 21.94%;
+
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+#about-ymner :hover {
+    color: #cbcbc9;
+}
+
+.about-cookies-GDPR {
+    position: absolute;
+    left: 69.1%;
+    top: 37.62%;
+
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.contact {
+    position: absolute;
+    left: 69.1%;
+    right: 18.12%;
+    top: 53.29%;
+
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: #FFFFFF;
+
+    opacity: 0.7;
+}
+
+.footer-2 {
+    box-sizing: content-box;
+    position: relative;
+    height: 60.64px;
+    width: 1440px;
+    top: 0px;
+    background: #000000;
+    margin: auto;
+}
+
+.eng {
+    position: absolute;
+    height: 30px;
+    width: 28.777774810791016px;
+    left: 260px;
+    top: 15px;
+}
+
+.english {
+    position: absolute;
+    left: 306px;
+    top: 22.64px;
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    width: 48px;
+    height: 28px;
+    margin: 0px;
+}
+
+.copyright {
+    position: absolute;
+    left: 737px;
+    top: 12.64px;
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.4px;
+    line-height: 15px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    height: 28px;
+    width: 442px;
+}
+
+.footer {
+    width: 100%;
+    position: absolute;
+    top: 630px;
+}
+
+.find-funding {
+    display: none;
+}
+
+.a hr {
+    display: block;
+}
+.header .material-symbols-outlined {
+    display: none;
+}
+
+.funded-projects {
+    display: none;
+}
+
+footer {
+    width: 100%;
+    margin: auto;
+    background-color: #000;
+
+}
+
+
+
+.a {
+    width: 100%;
+    top: 0px;
+    background: #292A2B;
+    margin: auto;
+}
+
