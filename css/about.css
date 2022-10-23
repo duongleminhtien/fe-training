@@ -2,83 +2,12 @@
     font-family: 'Centra No1';
     src: url(/font/centrano1-and-no2-font/CentraNo1-Book.ttf);
 }
-.insight {
-    width: 55px;
-    height: 28px;
-    margin-left: 800px;
-    display: flex;
-    margin-top: 0px;
-}
-.insight p {
-    font-family: 'Centra No1';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 28px;
-    color: #FFFFFF;
-}
-.insight a {
-    width: 10px;
-    height: 5px;
-    margin-left: 9px;
-    margin-top: 2px;
-    color: #FFFFFF;
-}
-.administration {
-    display: flex;
-    width: 128px;
-    height: 28px;
-    margin-left: 900px;
-    margin-top: 0px;
-    margin-bottom: 1000px;
-}
-.administration p {
-    font-family: 'Centra No1';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 28px;
-    color: #FFFFFF;
-}
-.administration a {
-    width: 10px;
-    height: 5px;
-    margin-top: 2px;
-    margin-left: 9px;
-    color: #FFFFFF;
-}
-.profile{
-    display: flex;
-    width: 134px;
-    height: 38px;
-    border: 1px solid #ccc;
-    border-radius: 38px;
-    margin-top: 9px;
-    background-color: #FFFFFF;
-    color: #A78730;
-    margin-left: 1000px;
-    margin-top: 19px;
-    font-family: 'Centra No1';
-} 
-.profile a{
-    color: #A78730;
-    margin-top: 6.5px;
-    width: 10px;
-    height: 5px;
-}
-.material-symbols-outlined{
-    font-variation-settings:
-    'FILL' 1,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 48
-}
-
 
 body {
     height: 2786px;
     width: 100%;
     margin: auto;
+    background-color: #edf8ef;
 }
 
 .container {
@@ -182,10 +111,12 @@ hr {
     opacity: 0.2;
     border: 0.5px solid #000000;
 }
-.content{
+
+.content {
     width: 1440px;
     margin: auto;
 }
+
 .make-idea {
     width: 691px;
     height: 56px;
@@ -253,7 +184,7 @@ h1 {
 
     font-family: 'Centra No1';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 40px;
     line-height: 48px;
     color: #A78730;
@@ -305,6 +236,8 @@ h1 {
     width: 26px;
     height: 26px;
     margin-left: 227.27px;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 .oscar-p {
@@ -423,12 +356,6 @@ h1 {
     margin-top: 61px;
 }
 
-.in {
-    width: 26px;
-    height: 26px;
-    margin-left: 227.27px;
-}
-
 .erik-p {
     width: 615px;
     height: 182px;
@@ -451,7 +378,7 @@ h1 {
 
     font-family: 'Centra No1';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 40px;
     line-height: 48px;
 
@@ -472,12 +399,12 @@ h1 {
     background-color: #FFFFFF;
     border-radius: 6px;
 }
-
-#img-patricia {
+#img-patricia{
     margin-top: 15%;
     margin-left: 20%;
     border-radius: 7px;
 }
+
 
 .patricia h1 {
     /* position: absolute; */
@@ -499,6 +426,8 @@ h1 {
     width: 16.5px;
     height: 16.5px;
     margin-left: 351px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .patricia-p {
@@ -575,7 +504,8 @@ h1 {
     color: #FFFFFF;
     opacity: 0.7;
 }
-.available-funding-2 :hover{
+
+.available-funding-2 :hover {
     color: #cbcbc9;
 }
 
@@ -643,11 +573,15 @@ h1 {
 
 .footer-2 {
     box-sizing: content-box;
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    background: #000000;
+    margin: auto;
     position: relative;
-    height: 60.64px;
+    box-sizing: content-box;
     width: 1440px;
     top: 0px;
-    background: #000000;
     margin: auto;
 }
 
@@ -682,7 +616,7 @@ h1 {
     font-style: normal;
     font-weight: 400;
     font-size: 13.4px;
-    line-height: 15px;
+    line-height: 0.9375rem;
     color: #FFFFFF;
     opacity: 0.5;
     height: 28px;
@@ -702,6 +636,7 @@ h1 {
 .a hr {
     display: block;
 }
+
 .header .material-symbols-outlined {
     display: none;
 }
@@ -717,7 +652,16 @@ footer {
 
 }
 
+.in img {
+    height: 26px;
+    width: 26.000385284423828px;
+}
 
+.patricia .in img {
+    height: 16.5px;
+    width: 16.5px;
+
+}
 
 .a {
     width: 100%;
@@ -726,3 +670,516 @@ footer {
     margin: auto;
 }
 
+@media screen and (max-width: 375px) {
+    .container {
+        width: 375px;
+        height: 4079px;
+    }
+
+    .ymner {
+        margin-left: 2px;
+        margin-top: 7px;
+        width: 98px;
+        height: 44px;
+    }
+
+    hr {
+        margin-left: 0px;
+        width: 375px;
+    }
+
+    .header .material-symbols-outlined {
+        position: absolute;
+        display: block;
+        left: 335px;
+        top: 21px;
+        width: 20px;
+        height: 14px;
+    }
+
+    .insights {
+        display: none;
+    }
+
+    .admin {
+        display: none;
+    }
+
+    .profile {
+        display: none;
+    }
+
+    .make-idea {
+        width: 347px;
+        height: 48px;
+        margin-left: 13px;
+        margin-top: 24px;
+    }
+
+    .make-idea h1 {
+        width: 170px;
+        height: 38px;
+        font-size: 1.375rem;
+    }
+
+    .p1 {
+        width: 347px;
+        height: 96px;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 24px;
+        margin-top: 0px;
+    }
+
+    .p2 {
+        width: 347px;
+        height: 120px;
+        font-size: 13px;
+        line-height: 24px;
+        margin-top: 0px;
+    }
+
+    .p3 {
+        width: 347px;
+        height: 48px;
+        font-size: 13px;
+        line-height: 24px;
+        margin-top: 0px;
+    }
+
+    .team h1 {
+        width: 56px;
+        height: 38px;
+        font-size: 1.375rem;
+        line-height: 38px;
+        margin-top: 300px;
+        margin-left: 13px;
+    }
+
+    .img-oscar {
+        width: 240.72px;
+        height: 369.2px;
+    }
+
+    .oscar {
+        margin-left: 13px;
+        margin-top: 34px;
+    }
+
+    #img-oscar {
+        width: 300px;
+        height: 298.63px;
+    }
+
+    .oscar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .status {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .oscar h1 {
+        width: 193px;
+        height: 28px;
+        font-family: 'Centra No1';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+
+    .in {
+        width: 13.75px;
+        height: 13.75px;
+        margin-left: 0px;
+        margin-top: 11.13px;
+    }
+
+    .oscar-p {
+        width: 347px;
+        height: 192px;
+        font-size: 12px;
+        line-height: 24px;
+        opacity: 0.8;
+        margin-left: 0px;
+    }
+
+    .hermes {
+        display: flex;
+        margin-left: 121.47px;
+        margin-top: 91px;
+        flex-direction: column;
+    }
+
+    .img-hermes {
+        width: 241.53px;
+    }
+
+    #img-hermes {
+        width: 300px;
+        right: 20%;
+        margin-top: 20%;
+    }
+
+    .hermes h1 {
+        width: 127px;
+        height: 28px;
+        font-family: 'Centra No1';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+        margin-left: -110px;
+        margin-top: 40px;
+    }
+
+    .hermes .in {
+        margin-left: -110px;
+    }
+
+    .hermes-p {
+        margin-left: -110px;
+        height: 216px;
+        width: 347px;
+        font-size: 13px;
+        line-height: 24px;
+        margin-top: 19.12px;
+    }
+
+    .erik {
+        display: flex;
+        flex-direction: column;
+        margin-left: 13px;
+        margin-top: 67px;
+    }
+
+    .img-erik {
+        width: 240.72px;
+        height: 369.2px;
+    }
+
+    #img-erik {
+        width: 300px;
+        height: 298.63px;
+    }
+
+    .erik h1 {
+        width: 91px;
+        height: 28px;
+        font-family: 'Centra No1';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+
+    .erik-p {
+        width: 347px;
+        height: 264px;
+        font-size: 13px;
+        line-height: 24px;
+        opacity: 0.8;
+        margin-left: 0px;
+        margin-top: 18.93px;
+    }
+
+    .advisors {
+        width: 89px;
+        height: 38px;
+    }
+
+    .advisors h1 {
+
+        font-weight: 700;
+        font-size: 1.375rem;
+        line-height: 38px;
+        margin-top: 56px;
+        margin-left: 13px;
+    }
+
+    .patricia {
+        display: flex;
+        flex-direction: column;
+        margin-left: 13px;
+    }
+
+    .img-patricia {
+        width: 187.78px;
+        height: 245.56px;
+    }
+
+    .patricia h1 {
+        width: 183px;
+        height: 24px;
+        margin-left: 0px;
+        margin-top: 284px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .patricia .status1 .in {
+        width: 13.75px;
+        height: 13.75px;
+        margin-left: 0px;
+    }
+
+    .patricia-p {
+        width: 347px;
+        height: 66px;
+        font-size: 13px;
+        line-height: 22px;
+        margin-left: 0px;
+        margin-top: 19.09px;
+    }
+
+    .footer {
+        position: absolute;
+        top: auto;
+    }
+
+    .box-ymner {
+        height: 588px;
+        width: 375px;
+        top: 0px;
+    }
+
+    footer {
+        box-sizing: content-box;
+        position: absolute;
+        height: 133px;
+        width: 375px;
+        top: 3447.29px;
+        background: #000000;
+    }
+
+    .y {
+        height: 22.00000762939453px;
+        width: 23.562585830688477px;
+        left: 17.2264404296875px;
+        top: 29.60546875px;
+        border-radius: 0px;
+    }
+
+    .m {
+        height: 21.765331268310547px;
+        width: 23.64925765991211px;
+        left: 42.910888671875px;
+        top: 29.60546875px;
+        border-radius: 0px;
+    }
+
+    .n {
+        height: 21.765331268310547px;
+        width: 18.417884826660156px;
+        left: 69.5926513671875px;
+        top: 29.60546875px;
+        border-radius: 0px;
+    }
+
+    .e {
+        height: 21.765331268310547px;
+        width: 15.076324462890625px;
+        left: 91.0462646484375px;
+        top: 29.60546875px;
+        border-radius: 0px;
+    }
+
+    .r {
+        height: 22.00000762939453px;
+        width: 18.8203125px;
+        left: 108.7696533203125px;
+        top: 29.60546875px;
+        border-radius: 0px;
+    }
+
+    .available-funding2 {
+        display: none;
+    }
+
+    .funding-insights2 {
+        display: none;
+    }
+
+    .find-funding {
+        display: inline;
+        height: 28px;
+        width: 89px;
+        position: absolute;
+        left: 21px;
+        top: 123px;
+
+        font-family: 'Centra No1';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 28px;
+
+        color: #FFFFFF;
+
+        opacity: 0.7;
+        margin: 0px;
+    }
+
+    .funded-projects {
+        position: absolute;
+        display: inline;
+        height: 28px;
+        width: 110px;
+        left: 21px;
+        top: 167px;
+
+
+        font-family: 'Centra No1';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 28px;
+
+        color: #FFFFFF;
+
+        opacity: 0.7;
+    }
+
+    hr {
+        position: absolute;
+        display: inline;
+        height: 0px;
+        width: 314px;
+        left: 21px;
+        top: 213px;
+
+
+        opacity: 0.2;
+        border: 0.5px solid #FFFFFF;
+    }
+
+    .about-ymner {
+        position: absolute;
+        height: 28px;
+        width: 92px;
+        left: 21px;
+        top: 250px;
+        font-family: 'Centra No1';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 28px;
+
+        color: #FFFFFF;
+
+        opacity: 0.7;
+    }
+
+    .about-cookies-GDPR {
+        position: absolute;
+        height: 28px;
+        width: 157px;
+        left: 21px;
+        top: 290px;
+        font-family: 'Centra No1';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 28px;
+        color: #FFFFFF;
+
+        opacity: 0.7;
+    }
+
+    .contact {
+        position: absolute;
+        height: 28px;
+        width: 184px;
+        left: 21px;
+        top: 325px;
+        font-family: 'Centra No1';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 28px;
+
+        color: #FFFFFF;
+
+        opacity: 0.7;
+    }
+
+    .eng {
+        position: absolute;
+        width: 28.777774810791016px;
+        left: 21px;
+        top: 27px;
+    }
+
+    .english {
+        position: absolute;
+        height: 28px;
+        width: 48px;
+        left: 67px;
+        top: 26px;
+        font-family: 'Centra No1';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 28px;
+
+        color: #FFFFFF;
+
+        opacity: 0.6;
+    }
+
+    .copyright {
+        height: 48px;
+        width: 298px;
+        left: 21px;
+        top: 58px;
+        font-family: 'Centra No1';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.9375rem;
+        line-height: 24px;
+        color: #FFFFFF;
+
+        opacity: 0.5;
+    }
+
+    .header {
+        width: 375px;
+        height: 80px;
+        position: relative;
+        margin: auto;
+        margin-top: -10px;
+        display: block;
+    }
+
+    .content {
+        width: 375px;
+    }
+
+    .footer-2 {
+        box-sizing: content-box;
+        position: absolute;
+        height: 150px;
+        width: 375px;
+        background: #000000;
+        margin: auto;
+        top: 480px;
+    }
+
+    .in img {
+        height: 13.75px;
+        width: 13.75px;
+    }
+    .status p{
+        margin: 0px;
+    }
+    .oscar .in{
+        margin-bottom: 20px;
+    }
+}

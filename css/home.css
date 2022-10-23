@@ -1,6 +1,3 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
-
 @font-face {
     font-family: 'Centra No1';
     src: url(/font/centrano1-and-no2-font/CentraNo1-Book.ttf);
@@ -997,4 +994,439 @@ hr {
     }
 }
 
+@media screen and (max-width: 375px) {
+    .container {
+        width: 375px;
+    }
+    .header{
+        width: 375px;
+    }
+    header {
+        width: 375px;
+        height: 328px;
+        margin: auto;
+    }
+    #insights{
+        display: none;
+    }
+    #administration{
+        display: none;
+    }
+    .box{
+        display: none;
+    }
+    .a-1 {
+        width: 375px;
+        height: 328px;
+    }
 
+    .menu {
+        position: relative;
+        width: 375px;
+        height: 70.25px;
+        left: 1px;
+        top: 6px;
+    }
+
+    .menu .material-symbols-outlined {
+        position: absolute;
+        left: 335px;
+        top: 14px;
+        display: inline;
+        color: #FFFFFF;
+    }
+
+    .makeidea {
+        width: 232px;
+        height: 39px;
+        left: 14px;
+        top: 0px;
+        font-family: 'Centra No1';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 91px;
+        margin: 0px;
+        color: #FFFFFF;
+    }
+
+    .ymner {
+        width: 107px;
+        height: 48px;
+    }
+
+    #services {
+        width: 143px;
+        height: 30px;
+        left: 14px;
+        top: 44px;
+        font-size: 14px;
+        line-height: 0px;
+        margin: 0px;
+    }
+
+    #innovation {
+        width: 147px;
+        height: 30px;
+        left: 160px;
+        top: 0px;
+        font-size: 14px;
+        line-height: 0px;
+    }
+    .content{
+        width: 375px;
+    }
+    .box-available {
+        width: 350px;
+        height: 584px;
+        left: 12px;
+        top: 56px;
+        ;
+        border-radius: 14px;
+    }
+
+    .available-funding {
+        position: absolute;
+        width: 145px;
+        height: 28px;
+        left: 24px;
+        top: 32px;
+        font-size: 18px;
+        line-height: 0px;
+    }
+
+    #available-p1 {
+        display: none;
+    }
+
+    #available-p2 {
+        display: none;
+    }
+
+    .available-p3 {
+        left: 24px;
+        top: 70px;
+        position: absolute;
+        width: 300px;
+        height: 78px;
+
+        font-family: 'Centra No1';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #000000;
+        opacity: 0.7;
+        display: inline;
+        margin: 0;
+    }
+
+    #grants {
+        left: 24px;
+        top: 166px;
+        margin: 0;
+    }
+
+    .ellipse {
+        left: 24px;
+        top: 202px;
+    }
+
+    .e-number {
+        left: 58px;
+        top: 200px;
+        margin: 0px;
+    }
+
+    #foundations {
+        left: 24px;
+        top: 244px;
+        margin: 0px;
+    }
+
+    .ellipse1 {
+        left: 24px;
+        top: 280px
+    }
+
+    .e-number1 {
+        left: 58px;
+        top: 278px;
+        margin: 0;
+    }
+
+    #investors {
+        left: 24px;
+        top: 322px;
+        margin: 0px;
+    }
+
+    .ellipse2 {
+        width: 24px;
+        height: 24px;
+        left: 24px;
+        top: 358px;
+    }
+
+    .e-number2 {
+        left: 58px;
+        top: 356px;
+        margin: 0px;
+    }
+
+    #others {
+        left: 24px;
+        top: 400px;
+        margin: 0px;
+    }
+
+    .ellipse3 {
+        left: 24px;
+        top: 436px;
+    }
+
+    .e-number3 {
+        left: 58px;
+        top: 434px;
+        margin: 0px;
+    }
+
+    .visa-btn {
+        left: 100px;
+        top: 504px;
+        width: 150px;
+        height: 40px;
+    }
+
+    .box-funding {
+        width: 350px;
+        height: 392px;
+        left: 13px;
+        top: 80px;
+    }
+
+    #funding-insights {
+        width: 134px;
+        height: 28px;
+        left: 24px;
+        top: 32px;
+        font-size: 18px;
+        line-height: 28px;
+        margin: 0px;
+    }
+
+    #funding-p1 {
+        display: none;
+    }
+
+    #funding-p2 {
+        display: none;
+    }
+
+    .funding-p4 {
+        position: absolute;
+        width: 258px;
+        height: 104px;
+        left: 24px;
+        top: 70px;
+
+        font-family: 'Centra No1';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #000000;
+        opacity: 0.7;
+        display: inline;
+        margin: 0px;
+    }
+
+    #funding-p3 {
+        width: 308px;
+        height: 84px;
+        left: 24px;
+        top: 194px;
+        margin: 0px;
+    }
+
+    .show-btn {
+        left: 99px;
+        top: 312px;
+        width: 150px;
+        height: 40px;
+    }
+
+    .box-ymner {
+        height: 455px;
+        width: 375px;
+        top: 0px;
+    }
+
+    .y {
+        position: absolute;
+        left: 21.23px;
+        top: 54.61px;
+        height: 22.00000762939453px;
+        width: 23.562585830688477px;
+    }
+
+    .m {
+        height: 22.00000762939453px;
+        width: 23.562585830688477px;
+        left: 46.91px;
+        top: 54.91px;
+    }
+
+    .n {
+        height: 21.765331268310547px;
+        width: 18.417884826660156px;
+        left: 73.59px;
+        top: 54.61px;
+    }
+
+    .e {
+        height: 21.765331268310547px;
+        width: 15.076324462890625px;
+        left: 95.05px;
+        top: 54.61px;
+    }
+
+    .r {
+        height: 22.00000762939453px;
+        width: 18.8203125px;
+        left: 112.77px;
+        top: 54.61px;
+    }
+
+    .available-funding2 {
+        display: none;
+    }
+
+    .funding-insights2 {
+        display: none;
+    }
+
+    .find-funding {
+        position: absolute;
+        font-family: 'Centra No1';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.875rem;
+        line-height: 28px;
+        color: #FFFFFF;
+
+        opacity: 0.7;
+        height: 28px;
+        width: 89px;
+        left: 21px;
+        top: 123px;
+        margin: 0px;
+        display: inline;
+    }
+
+    .funded-projects {
+        position: absolute;
+        font-family: 'Centra No1';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.875rem;
+        line-height: 28px;
+        color: #FFFFFF;
+
+        opacity: 0.7;
+        height: 28px;
+        width: 110px;
+        left: 21px;
+        top: 167px;
+        margin: 0px;
+        display: inline;
+    }
+
+    .footer-2 {
+        box-sizing: content-box;
+        position: absolute;
+        height: 133px;
+        width: 375px;
+        top: 455px;
+        background: #000000;
+    }
+
+    .a {
+        box-sizing: content-box;
+        position: absolute;
+        height: 133px;
+        width: 375px;
+        top: 0px;
+        background: #000000;
+    }
+
+    .about-ymner {
+        width: 92px;
+        height: 28px;
+        left: 21px;
+        top: 237px;
+        margin: 0px;
+    }
+
+    .about-cookies-GDPR {
+        left: 21px;
+        top: 281px;
+        margin: 0px;
+        height: 28px;
+        width: 157px;
+    }
+
+    .contact {
+        left: 21px;
+        top: 325px;
+        height: 28px;
+        width: 184px;
+        margin: 0px;
+    }
+
+    .eng {
+        height: 30px;
+        width: 28.777774810791016px;
+        left: 21px;
+        top: 0.875rem;
+    }
+
+    .english {
+        height: 28px;
+        width: 48px;
+        left: 67px;
+        top: 19px;
+    }
+
+    .copyright {
+        top: 63px;
+        left: 21px;
+        height: 48px;
+        width: 298px;
+        font-size: 0.9375rem;
+    }
+
+    .profile #vector {
+        display: none;
+    }
+
+    .profile #vector1 {
+        display: none;
+    }
+
+    .profile {
+        display: none;
+    }
+
+    .box-ymner hr {
+        position: absolute;
+        left: 21px;
+        top: 213px;
+
+        opacity: 0.2;
+        border: 0.5px solid #FFFFFF;
+        height: 0px;
+        width: 314px;
+        display: inline;
+    }
+}

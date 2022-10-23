@@ -7,6 +7,7 @@ body {
     height: 2966px;
     width: 100%;
     margin: auto;
+    background-color: #f2f7ff;
 }
 
 .container {
@@ -126,7 +127,7 @@ main {
 
     font-family: 'Centra No1';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 30px;
     line-height: 39px;
     color: #000000;
@@ -193,7 +194,7 @@ main {
     align-items: center;
 }
 
-.grants .number-grants {
+.grants .number-grants-785 {
     width: 26px;
     height: 28px;
     font-family: 'Centra No1';
@@ -221,7 +222,7 @@ main {
 
     opacity: 0.7;
     margin-left: 23px;
-    margin-top: 15px;
+    margin-top: 0.9375rem;
 }
 
 .list-grants {
@@ -231,13 +232,18 @@ main {
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 13.5px;
+    font-size: 0.9375rem;
     line-height: 24px;
     color: #000000;
 
     opacity: 0.7;
     margin-left: 23px;
     margin-top: 9px;
+}
+
+.list-grants ul {
+    width: 200px;
+    margin-left: -20px;
 }
 
 .p-grants span {
@@ -315,7 +321,7 @@ main {
 
     opacity: 0.7;
     margin-left: 23px;
-    margin-top: 15px;
+    margin-top: 0.9375rem;
 }
 
 .list-grants {
@@ -411,7 +417,7 @@ main {
 
     opacity: 0.7;
     margin-left: 23px;
-    margin-top: 15px;
+    margin-top: 0.9375rem;
 }
 
 .list-grants {
@@ -504,7 +510,7 @@ main {
 
     opacity: 0.7;
     margin-left: 23px;
-    margin-top: 15px;
+    margin-top: 0.9375rem;
 }
 
 .list-grants {
@@ -574,7 +580,7 @@ main {
     outline: none;
 }
 
-.filter {
+.btn-filter .filter {
     position: absolute;
     width: 106px;
     height: 44px;
@@ -582,17 +588,39 @@ main {
     border-radius: 22px;
     left: 1224px;
     top: 70px;
+    color: white;
+    border: 1px solid #A78730;
 }
 
 .filter .material-symbols-outlined {
     position: absolute;
     margin: 0px;
-    left: 10px;
-    top: 10px;
+    left: 16px;
+    top: 8px;
     color: white;
 }
 
+.filter {
+    width: 37px;
+    height: 21px;
+
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+
+}
+
 .filter p {
+    position: relative;
+    left: 10px;
+    bottom: 6.7px;
+}
+
+.btn-filter {
     position: absolute;
     width: 37px;
     height: 21px;
@@ -605,8 +633,6 @@ main {
     font-weight: 400;
     font-size: 16px;
     line-height: 21px;
-
-    color: #FFFFFF;
 }
 
 .results .result p {
@@ -630,7 +656,7 @@ main {
     width: 27px;
     height: 21px;
     left: 170px;
-    top: 67px;
+    top: 68px;
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
@@ -657,13 +683,13 @@ main {
 
 .sort-by span {
     position: relative;
-    width: 115px;
+    width: 10.9375rem;
     height: 21px;
     left: 955px;
     top: -7px;
     font-family: 'Centra No1';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 16px;
     line-height: 21px;
     color: #A78730;
@@ -691,7 +717,7 @@ main {
     top: -81px;
     font-family: 'Centra No1';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 16px;
     line-height: 21px;
     color: #A78730;
@@ -746,7 +772,7 @@ main {
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 24px;
 
     color: #000000;
@@ -808,24 +834,29 @@ main {
     background: #FFFFFF;
 }
 
-.ladda-mer {
+.btn-ladda .ladda-mer {
     box-sizing: border-box;
-
-    position: absolute;
     width: 160px;
     height: 44px;
-
     border: 1px solid #A78730;
     border-radius: 22px;
-    margin-left: 530px;
-    margin-top: 1780px;
+    margin-left: 640px;
+    margin-top: 48px;
 }
 
-#ladda-mer {
-    width: 77px;
+.btn-ladda button:hover {
+    background: #A78730;
+    color: white;
+}
+
+.btn-filter button:hover {
+    opacity: 0.8;
+}
+
+.ladda-mer {
     height: 21px;
-    margin-left: 42px;
-    margin-top: 12px;
+    width: 77px;
+
 
     font-family: 'Centra No1';
     font-style: normal;
@@ -835,6 +866,22 @@ main {
 
     color: #A78730;
 }
+
+#btn-ladda {
+    width: 77px;
+    height: 21px;
+    margin-left: 42px;
+    margin-top: 11px;
+
+    font-family: 'Centra No1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #A78730;
+}
+
 
 .box-ymner {
     position: relative;
@@ -885,7 +932,7 @@ main {
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 19px;
     color: #FFFFFF;
     opacity: 0.7;
@@ -903,7 +950,7 @@ main {
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 19px;
     color: #FFFFFF;
     opacity: 0.7;
@@ -917,7 +964,7 @@ main {
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 28px;
     color: #FFFFFF;
     opacity: 0.7;
@@ -935,7 +982,7 @@ main {
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 28px;
     color: #FFFFFF;
     opacity: 0.7;
@@ -950,7 +997,7 @@ main {
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 28px;
     color: #FFFFFF;
 
@@ -972,7 +1019,7 @@ main {
     height: 30px;
     width: 28.777774810791016px;
     left: 260px;
-    top: 15px;
+    top: 0.9375rem;
 }
 
 .english {
@@ -982,7 +1029,7 @@ main {
     font-family: 'Centra No1';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.9375rem;
     color: #FFFFFF;
     opacity: 0.6;
     width: 48px;
@@ -998,7 +1045,7 @@ main {
     font-style: normal;
     font-weight: 400;
     font-size: 13.4px;
-    line-height: 15px;
+    line-height: 0.9375rem;
     color: #FFFFFF;
     opacity: 0.5;
     height: 28px;
@@ -1026,7 +1073,7 @@ main {
 
 footer {
     width: 100%;
-    margin-top: 193px;
+    margin-top: 110px;
     background-color: #000;
 
 }
@@ -1056,13 +1103,487 @@ footer {
     display: none;
 }
 
-.foundations .expand-more .material-symbols-outlined {
-    display: none;
-}
-.investors .expand-more .material-symbols-outlined {
-    display: none;
-}
-.others .expand-more .material-symbols-outlined {
+.content hr {
     display: none;
 }
 
+@media screen and (max-width: 375px) {
+    .ymner {
+        width: 99px;
+        height: 44px;
+        margin-left: 8px;
+        margin-top: 2px;
+    }
+
+    .header {
+        width: 375px;
+        height: 69px;
+        display: flex;
+        margin: auto;
+        background-color: white;
+    }
+
+    .zoom hr {
+        margin: 0px;
+    }
+
+    .header .menu {
+        display: none;
+    }
+
+    .header .material-symbols-outlined {
+        display: inline;
+        width: 20px;
+        height: 14px;
+        left: 170px;
+        top: 22px;
+    }
+
+    .available-funding {
+        height: 28px;
+        width: 177px;
+        left: 13px;
+        top: 134px;
+        font-weight: 500;
+        font-size: 22px;
+
+        opacity: 0.8;
+        margin: 0px;
+        margin-left: 26px;
+    }
+
+    .available-contents {
+        display: block;
+    }
+
+    .available-contents .grants {
+        width: 350px;
+        height: 269px;
+        margin-left: 12px;
+        margin-top: 32px;
+    }
+
+    .grants hr {
+        display: block;
+        width: 100%;
+    }
+
+    .list-grants {
+        margin-left: 0px;
+    }
+
+    .list-grants ul {
+        margin: 0px;
+    }
+
+    .grant-circle {
+        width: 26px;
+        height: 26px;
+    }
+
+    .grant .material-symbols-outlined {
+        margin-left: 233px;
+    }
+
+    .foundations {
+        margin-left: 0px;
+        margin-top: 0px;
+        height: auto;
+    }
+
+    .foundations .p-grants {
+        display: none;
+    }
+
+    .foundations .material-symbols-outlined {
+        height: 10.000000000000009px;
+        width: 5.874913215637212px;
+        margin-left: 200px;
+        margin-top: 0.9375rem;
+    }
+
+    .investors .p-grants {
+        display: none;
+    }
+
+    .investors .material-symbols-outlined {
+        height: 10.000000000000009px;
+        width: 5.874913215637212px;
+        margin-left: 231px;
+        margin-top: 10px;
+    }
+
+    .others .p-grants {
+        display: none;
+    }
+
+    .others .material-symbols-outlined {
+        height: 10.000000000000009px;
+        width: 5.874913215637212px;
+        margin-left: 251px;
+        margin-top: 0.9375rem;
+    }
+
+    .foundations .list-grants {
+        display: none;
+    }
+
+    .investors .list-grants {
+        display: none;
+    }
+
+    .others .list-grants {
+        display: none;
+    }
+
+    .expand-less .material-symbols-outlined {
+        transform: rotate(180deg);
+    }
+
+    .number-grants {
+        display: none;
+    }
+
+    .foundations .number-grants-rep {
+        width: 26px;
+        height: 28px;
+        font-family: 'Centra No1';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: #619D87;
+        margin: 0px;
+        margin-left: 18px;
+        margin-top: 10px;
+        display: inline;
+    }
+
+    .foundations hr {
+        display: inline-block;
+        position: relative;
+        left: 25px;
+        top: 32px;
+        width: 324px;
+
+        opacity: 0.3;
+        border: 0.5px solid #000000;
+    }
+
+    .investors {
+        margin-left: 0px;
+        height: auto;
+    }
+
+    .investors .number-grants-rep {
+        width: 26px;
+        height: 28px;
+        font-family: 'Centra No1';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: #EB5181;
+        margin: 0px;
+        margin-left: 18px;
+        margin-top: 10px;
+        display: inline;
+    }
+
+    .investors hr {
+        display: inline-block;
+        position: relative;
+        left: 25px;
+        top: 32px;
+        width: 324px;
+
+        opacity: 0.3;
+        border: 0.5px solid #000000;
+    }
+
+    .others {
+        width: 287px;
+        height: auto;
+        margin-left: 0px;
+    }
+
+    .others .number-grants-rep {
+        width: 26px;
+        height: 28px;
+        font-family: 'Centra No1';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: #EF8A40;
+        margin: 0px;
+        margin-left: 18px;
+        margin-top: 10px;
+        display: inline;
+    }
+
+    .search-fill {
+        position: relative;
+        box-sizing: border-box;
+        width: 255px;
+        height: 44px;
+        left: 109px;
+        top: 70px;
+    }
+
+    .search-fill .type {
+        width: 160px;
+        left: 34px;
+    }
+
+    .search-fill {
+        left: 13px;
+        top: 48px;
+    }
+
+    .btn-filter p {
+        display: none;
+    }
+
+    .results .result p {
+        left: 13px;
+        top: 100px;
+    }
+
+    .result #number {
+        left: 74px;
+        top: 64px;
+        margin: 0px;
+    }
+
+    .sort-by p {
+        display: none;
+    }
+
+    .show p {
+        display: none;
+    }
+
+    .sort-by span {
+        left: 13px;
+        top: -0.9375rem;
+    }
+
+    .show span {
+        left: 203px;
+        top: -35px;
+        font-weight: 550;
+    }
+
+    .grid-container {
+        width: 375px;
+        display: grid;
+        margin-left: 0px;
+        margin-top: 24px;
+        gap: 24px;
+        grid-template-columns: auto;
+        background-color: #F2F7FF;
+    }
+
+    .grid-item {
+        margin-left: 13px;
+        height: 191px;
+        width: 350px;
+    }
+
+    .point2 {
+        display: none;
+    }
+
+    .content {
+        width: 375px;
+        background-color: #F2F7FF;
+    }
+
+    .btn-ladda {
+        box-sizing: border-box;
+        position: absolute;
+        width: 160px;
+        height: 44px;
+        border-radius: 22px;
+        /* margin-left: 95px; */
+        /* margin-top: 5200px; */
+    }
+
+    .btn-ladda .ladda-mer {
+        box-sizing: border-box;
+        width: 160px;
+        height: 44px;
+        border: 1px solid #A78730;
+        border-radius: 22px;
+        margin-left: 108px;
+        margin-top: 25px;
+    }
+
+    .zoom {
+        background-color: #F2F7FF;
+    }
+
+    .a {
+        width: 375px;
+        height: 588px;
+    }
+
+    .box-ymner {
+        width: 375px;
+        height: 455px;
+    }
+
+    .y {
+        height: 22.00000762939453px;
+        width: 23.562585830688477px;
+        left: 21.23px;
+        top: 54.61px;
+    }
+
+    .m {
+        height: 21.765331268310547px;
+        width: 23.64925765991211px;
+        left: 48px;
+        top: 54.61px;
+    }
+
+    .n {
+        height: 21.765331268310547px;
+        width: 18.417884826660156px;
+        left: 75px;
+        top: 54.61px;
+    }
+
+    .e {
+        height: 21.765331268310547px;
+        width: 15.076324462890625px;
+        left: 97px;
+        top: 54.61px;
+    }
+
+    .r {
+        height: 22.00000762939453px;
+        width: 18.8203125px;
+        left: 114px;
+        top: 54.61px;
+    }
+
+    .available-funding2 {
+        display: none;
+    }
+
+    .funding-insights2 {
+        display: none;
+    }
+
+    .find-funding {
+        display: inline;
+        position: relative;
+        left: 21px;
+        top: 123px;
+        font-family: 'Centra No1';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.9375rem;
+        line-height: 28px;
+
+        color: #FFFFFF;
+
+        opacity: 0.7;
+    }
+
+    .funded-projects {
+        display: inline;
+        position: relative;
+        left: -72px;
+        top: 167px;
+
+        font-family: 'Centra No1';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.9375rem;
+        line-height: 28px;
+
+        color: #FFFFFF;
+
+        opacity: 0.7;
+    }
+
+    .box-ymner hr {
+        display: block;
+        position: absolute;
+        left: 21px;
+        top: 213px;
+        bottom: 100%;
+        opacity: 0.2;
+        width: 314px;
+        border: 0.5px solid #FFFFFF;
+    }
+
+    .about-ymner {
+        left: 21px;
+        top: 237px;
+    }
+
+    .about-cookies-GDPR {
+        left: 21px;
+        top: 281px;
+    }
+
+    .contact {
+        position: absolute;
+        left: 21px;
+        top: 325px;
+    }
+
+    .footer-2 {
+        top: -100px;
+        height: 133px;
+        width: 375px;
+    }
+
+    .eng {
+        left: 21px;
+        top: 27px;
+    }
+
+    .english {
+        left: 67px;
+        top: 31px;
+    }
+
+    .copyright {
+        height: 48px;
+        width: 298px;
+        font-size: 0.9375rem;
+        left: 21px;
+        top: 63px;
+    }
+
+    footer {
+        height: 630px;
+    }
+
+    .filter .material-symbols-outlined {
+        position: absolute;
+        margin: 0px;
+        left: 9px;
+        top: 8px;
+        color: white;
+    }
+
+    .btn-filter .filter {
+        height: 44px;
+        width: 44px;
+        left: 280px;
+        top: 35px;
+        border-radius: 22px;
+    }
+    .results{
+        margin-bottom: 50px;
+    }
+    .number-grants-785{
+        display: block;
+    }
+}
